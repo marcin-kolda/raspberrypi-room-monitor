@@ -1,0 +1,111 @@
+{
+  "updated": "2016-05-31T20:26:58.202Z",
+  "items": [
+    {
+      "id": "tqu2eqjgdblk0tjbk95glem2ms_20160601T080000Z",
+      "htmlLink": "https://www.google.com/calendar/event?eid=dHF1MmVxamdkYmxrMHRqYms5NWdsZW0ybXNfMjAxNjA2MDFUMDgwMDAwWiBvY2Fkby5jb21fMzgzMzM0MzQzMDMwMzQzMjMxMzBAcmVzb3VyY2UuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
+      "created": "2016-02-17T11:04:21.000Z",
+      "attendees": [
+        {
+          "displayName": "PCPCPC",
+          "email": "p.c@example.com",
+          "optional": true,
+          "responseStatus": "tentative"
+        },
+        {
+          "displayName": "Yellow",
+          "email": "example.com_38333434303034323130@resource.calendar.google.com",
+          "resource": true,
+          "responseStatus": "accepted",
+          "self": true
+        },
+        {
+          "displayName": "Mau K",
+          "responseStatus": "needsAction",
+          "email": "m.k@test.com"
+        },
+        {
+          "displayName": "Michal",
+          "email": "michal@test.com",
+          "responseStatus": "accepted",
+          "organizer": true
+        }
+      ],
+      "updated": "2016-04-20T09:10:52.631Z",
+      "status": "confirmed",
+      "recurringEventId": "tqu2eqjgdblk0tjbk95glem2ms",
+      "end": {
+        "dateTime": "2016-06-01T11:30:00+02:00"
+      },
+      "summary": "test_should_parse_event",
+      "creator": {
+        "displayName": "Michal",
+        "email": "michal@test.com"
+      },
+      "start": {
+        "dateTime": "2016-06-01T10:00:00+02:00"
+      },
+      "originalStartTime": {
+        "dateTime": "2016-06-01T10:00:00+02:00"
+      },
+      "organizer": {
+        "displayName": "Michal",
+        "email": "michal@test.com"
+      },
+      "location": "Yellow"
+    },
+    {
+      "id": "tqu2eqjgdblk0tjbk95glem2ms_20160601T080000Z",
+      "htmlLink": "https://www.google.com/calendar/event?eid=dHF1MmVxamdkYmxrMHRqYms5NWdsZW0ybXNfMjAxNjA2MDFUMDgwMDAwWiBvY2Fkby5jb21fMzgzMzM0MzQzMDMwMzQzMjMxMzBAcmVzb3VyY2UuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
+      "created": "2016-02-17T11:04:21.000Z",
+      "attendees": [
+        {
+          "displayName": "PCPCPC",
+          "email": "p.c@example.com",
+          "optional": true,
+          "responseStatus": "tentative"
+        },
+        {
+          "displayName": "Yellow",
+          "email": "example.com_38333434303034323130@resource.calendar.google.com",
+          "resource": true,
+          "responseStatus": "accepted",
+          "self": true
+        },
+        {
+          "displayName": "Mau K",
+          "responseStatus": "needsAction",
+          "email": "m.k@test.com"
+        },
+        {
+          "displayName": "Michal",
+          "email": "michal@test.com",
+          "responseStatus": "accepted",
+          "organizer": true
+        }
+      ],
+      "updated": "2016-04-20T09:10:52.631Z",
+      "status": "confirmed",
+      "recurringEventId": "tqu2eqjgdblk0tjbk95glem2ms",
+      "end": {
+        "dateTime": "2016-06-02T11:30:00+02:00"
+      },
+      "summary": "other_event",
+      "creator": {
+        "displayName": "Michal",
+        "email": "michal@test.com"
+      },
+      "start": {
+        "dateTime": "2016-06-02T10:00:00+02:00"
+      },
+      "originalStartTime": {
+        "dateTime": "2016-06-02T10:00:00+02:00"
+      },
+      "organizer": {
+        "displayName": "Michal",
+        "email": "michal@test.com"
+      },
+      "location": "Yellow"
+    }
+  ]
+}

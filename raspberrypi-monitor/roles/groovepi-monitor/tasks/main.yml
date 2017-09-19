@@ -1,0 +1,21 @@
+---
+- name: "copying grove_sensors.sh to '/etc/init.d/grove_sensors'"
+  become: True
+  become_user: root
+  become_method: sudo
+  template: src=grove_sensors.sh
+            dest=/etc/init.d/grove_sensors
+            mode=0755
+
+- name: "create '{{ workspace }}/logs' directory"
+  file: path="{{ workspace }}/logs"
+        state=directory
+
+- name: "copying run_sensors.py to '{{ workspace }}'"
+  template: src=run_sensors.py
+            dest={{ workspace }}/run_sensors.py
+
+- name: "cron update to upload to gcs"
+  cron: name="upload to gcs"
+        minute="*/5"
+        job="/home/pi/google-cloud-sdk/bin/gsutil -m rsync -x '.*.py$|.*.log$|.*.out$' /home/pi/conf-room-monitor/logs gs://gcs-raspberrypi-monitor-data >> /home/pi/conf-room-monitor/gsutil.log 2>&1"

@@ -1,0 +1,23 @@
+{
+  "updated": "2016-05-31T20:26:58.202Z",
+  "items": [
+    {
+      "id": "8qm21ipq839nmk2pohcuvus2t0_20160617T070000Z",
+      "visibility": "private",
+      "iCalUID": "8qm21ipq839nmk2pohcuvus2t0@google.com",
+      "etag": "\"2930961246834000\"",
+      "updated": "2016-06-09T13:57:03.417Z",
+      "status": "cancelled",
+      "recurringEventId": "8qm21ipq839nmk2pohcuvus2t0",
+      "end": {
+        "dateTime": "2016-06-17T08:30:00+01:00"
+      },
+      "start": {
+        "dateTime": "2016-06-17T08:00:00+01:00"
+      },
+      "originalStartTime": {
+        "dateTime": "2016-06-17T08:00:00+01:00"
+      }
+    }
+  ]
+}

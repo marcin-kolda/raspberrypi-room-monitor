@@ -1,0 +1,12 @@
+lib
+*.iml
+*.pyc
+.venv
+.idea
+.project
+.pydevproject
+*.p12
+*.pem
+*.iam.gserviceaccount.com.json
+scripts/data
+scripts/.ipynb_checkpoints

@@ -1,0 +1,90 @@
+{
+  "accessRole": "reader",
+  "summary": "Yellow",
+  "kind": "calendar#events",
+  "timeZone": "Europe/Warsaw",
+  "etag": "\"1467043835380000\"",
+  "updated": "2016-06-27T16:10:35.380Z",
+  "items": [
+    {
+      "id": "uami790aho3nk4ummga3p0249s_20160627T090000Z",
+      "visibility": "public",
+      "htmlLink": "https://www.google.com/calendar/event?eid=dWFtaTc5MGFobzNuazR1bW1nYTNdwMDI0OXNfMjAxNjA2MjsdUMDkwMDAwWiBvY2Fkby5jb21fMzgzMzM0MzQzMDMwMzQzMjMxMzBAcmVzb3VyY2UuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
+      "created": "2015-09-08T20:54:35.000Z",
+      "iCalUID": "uami790aho3nk4ummgda3p0249s_R20151221T100000@google.com",
+      "sequence": 1,
+      "etag": "\"2934030362238000\"",
+      "updated": "2016-06-27T08:13:01.119Z",
+      "status": "confirmed",
+      "recurringEventId": "uami790aho3nk4ummga3p0249s_R20151221T100000",
+      "guestsCanModify": true,
+      "end": {
+        "dateTime": "2016-06-27T12:00:00+02:00",
+        "timeZone": "Europe/Warsaw"
+      },
+      "summary": "confirmed_meeting",
+      "creator": {
+        "displayName": "AM",
+        "email": "AM@example.com"
+      },
+      "start": {
+        "dateTime": "2016-06-27T11:00:00+02:00",
+        "timeZone": "Europe/Warsaw"
+      },
+      "originalStartTime": {
+        "dateTime": "2016-06-27T11:00:00+02:00",
+        "timeZone": "Europe/Warsaw"
+      },
+      "organizer": {
+        "displayName": "AM",
+        "email": "AM@example.com"
+      },
+      "location": "Brown"
+    },
+    {
+      "id": "sa5obtf207pm3umm2kbodrd4c8_20160627T090000Z",
+      "htmlLink": "https://www.google.com/calendar/event?eid=c2E1b2J0ZjIwN3BtM3VtbTJrYm9kcmQ0YzhfMjAxNjA2MjdUMDkwMDAwWiBvY2Fkby5jb21fMzgzMzM0MzQzMDMwMzQzMjMxMzBAcmVzb3VyY2UuY2FsZW5kYXIuZ29vZ2xlLmNvbQ",
+      "created": "2016-05-30T15:58:05.000Z",
+      "attendees": [
+        {
+          "displayName": "SJ",
+          "email": "sj@example.com",
+          "responseStatus": "accepted",
+          "organizer": true
+        },
+        {
+          "displayName": "Yellow",
+          "email": "example.com_38433343430334323130@resource.calendar.google.com",
+          "resource": true,
+          "responseStatus": "accepted",
+          "self": true
+        }
+      ],
+      "iCalUID": "sa5obtf207pm3umm2kbodrd4c8@google.com",
+      "sequence": 2,
+      "etag": "\"2929361301262000\"",
+      "updated": "2016-05-31T07:44:10.631Z",
+      "status": "cancelled",
+      "recurringEventId": "sa5obtf207pm3umm2kbodrd4c8",
+      "end": {
+        "dateTime": "2016-06-27T11:30:00+02:00"
+      },
+      "summary": "How's Team A doing?",
+      "creator": {
+        "displayName": "SJ",
+        "email": "SJ@example.com"
+      },
+      "start": {
+        "dateTime": "2016-06-27T11:00:00+02:00"
+      },
+      "originalStartTime": {
+        "dateTime": "2016-06-27T11:00:00+02:00"
+      },
+      "organizer": {
+        "displayName": "SJ",
+        "email": "SJ@example.com"
+      },
+      "location": "Yellow"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "kind": "calendar#events",
+  "etag": "\"1466202272979000\"",
+  "summary": "Yellow",
+  "updated": "2016-06-17T22:24:32.979Z",
+  "timeZone": "Europe/Warsaw",
+  "accessRole": "reader",
+  "defaultReminders": [
+  ],
+  "items": [
+    {
+
+
+      "kind": "calendar#event",
+      "etag": "\"2932404545606000\"",
+      "id": "asasltfng3n0k4bs46g2f5fnag",
+      "status": "confirmed",
+      "htmlLink": "https://www.google.com/calendar/event?eid=YXNhc2x0Zsm5nM24wazRiczQ2ZzJmNWZuYWcgb2NhZG8uY29tXzM4MzMzNDM0MzAzMDM0MzIzMTMwQHJlc291cmNlLmNhbGVuZGFyLmdvb2dsZS5jb20",
+      "created": "2016-06-17T22:23:23.000Z",
+      "updated": "2016-06-17T22:24:32.803Z",
+      "summary": "Test 11",
+      "location": "Yellow",
+      "creator": {
+        "email": "m.k@example.com",
+        "displayName": "MK"
+      },
+      "organizer": {
+        "email": "m.k@example.com",
+        "displayName": "MK"
+      },
+      "start": {
+        "dateTime": "2016-06-18T11:00:00+02:00"
+      },
+      "end": {
+        "dateTime": "2016-06-18T11:25:00+02:00"
+      },
+      "iCalUID": "asasltfng3n0k4bs46g2f5fnag@google.com",
+      "sequence": 1,
+      "attendees": [
+        {
+          "email": "example.com_38333434303034323130@resource.calendar.google.com",
+          "displayName": "Yellow",
+          "self": true,
+          "resource": true,
+          "responseStatus": "accepted"
+        },
+        {
+          "email": "m.k@example.com",
+          "displayName": "MK",
+          "organizer": true,
+          "responseStatus": "accepted"
+        }
+      ],
+      "hangoutLink": "https://plus.google.com/hangouts/_/example.com/m-k?hceid=bWFyY2luLmtvabGRhQG9jYWRvLmNvbQ.asasltfng3n0k4bs46g2f5fnag",
+      "guestsCanModify": true,
+      "reminders": {
+        "useDefault": true
+      }
+    }
+  ]
+}
