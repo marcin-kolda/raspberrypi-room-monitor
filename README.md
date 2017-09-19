@@ -26,10 +26,11 @@ More info about Raspberry setup you can find in [raspberrypi-monitor](raspberryp
 
 ## Google Calendar API exporter
 
-[Google Apps script](https://developers.google.com/apps-script/) is stored on Google Drive.
+[Google Apps script](https://developers.google.com/apps-script/) is stored in `apps-scripts`.
 It snapshots data from Google Calendar for particular conf room every 5 minutes using [triggers](https://developers.google.com/apps-script/guides/triggers/installable#time-driven_triggers). Scripts run on Google's servers.
 
 Calendar data is dumped every few minutes to find cases when meeting is postponed (as Google Calendar don't store event history).
+It's using [OAuth2 library](https://script.google.com/macros/library/versions/d/1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF) in version 18.
 
 ## Python scripts
 
