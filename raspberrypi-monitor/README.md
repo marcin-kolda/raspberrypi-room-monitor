@@ -6,7 +6,7 @@
 1. [GrovePi](https://www.seeedstudio.com/item_detail.html?p_id=1672) which is old version, not to be confused with new ones which are [GrovePi+](https://www.seeedstudio.com/item_detail.html?p_id=2241),
 1. Old GrovePi have special instruction for updating firmware:
   * [Updating the firmware for an older GrovePi](https://docs.google.com/document/d/1fe2uCjoLpAE6Vt2HS28n_dhSfbVXZ1p-PhG1aEvIQSM/edit)
-  * [grovepi-firmware-update](http://www.dexterindustries.com/topic/grovepi-firmware-update-v1-2-2/page/2/#post-79976) forum thread
+  * [grovepi-firmware-update](https://forum.dexterindustries.com/t/grovepi-firmware-update-v1-2-2/581) forum thread
 1. Copy your public key to `~/.ssh/authorized_keys` on Raspberry so that you can log in without password,
 1. Install [Ansible](http://docs.ansible.com/ansible/index.html) on your laptop, e.g. `brew install ansible` on Mac,
 1. Install [gcloud](https://cloud.google.com/sdk/docs/#linux) tool on Raspberry,
