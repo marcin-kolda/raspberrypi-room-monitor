@@ -21,10 +21,10 @@
 Hardware consists of:
 * [Raspberry Model B+](https://www.raspberrypi.org/products/model-b-plus/) running [Raspbian for Robots](http://www.dexterindustries.com/raspberry-pi-robot-software/) OS
 * [GrovePi](http://www.dexterindustries.com/grovepi/)  
-![](.images/grovepi.jpg) 
+![](/.images/grovepi.jpg) 
 * [Grove PIR Motion Sensor](http://www.seeedstudio.com/wiki/Grove_-_PIR_Motion_Sensor)  
-![](.images/pir_motion_sensor_top.jpg) ![](.images/pir_motion_sensor_bottom.jpg)
+![](/.images/pir_motion_sensor_top.jpg) ![](/.images/pir_motion_sensor_bottom.jpg)
 * [Grove Sound Sensor](http://www.seeedstudio.com/wiki/Grove_-_Sound_Sensor)  
-![](.images/sound_sensor_top.jpg) ![](.images/sound_sensor_bottom.jpg)
+![](/.images/sound_sensor_top.jpg) ![](/.images/sound_sensor_bottom.jpg)
 * 8GB SD Card + Charger + USB WiFi Adapter
 
